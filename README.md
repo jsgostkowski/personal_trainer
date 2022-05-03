@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# LAnding PAge stworzony na potrzeby zbudowania portfolio. Strona dla trenera personalnego.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
