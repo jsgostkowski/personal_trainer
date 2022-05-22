@@ -10,8 +10,11 @@ import {
 const Section = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 10px;
-  margin-top: 5px;
+  margin: 15px 10px 0px 10px;
+
+  webkit-box-shadow: 0px 9px 22px -17px rgba(108, 209, 108, 1);
+  moz-box-shadow: 0px 9px 22px -17px rgba(108, 209, 108, 1);
+  box-shadow: 0px 9px 22px -17px rgba(108, 209, 108, 1);
 `;
 
 const StyledVariant = styled.div`
@@ -39,8 +42,11 @@ export const StyledOffer = () => {
         </StyledOfferIconAboutMe>
 
         <h2>O MNIE</h2>
-        <p>Cześć, nazywam się Patryk Stefański</p>
-        <p>Uczę, jak jeść i trenować,bez popadania w skrajności</p>
+        <p>
+          Cześć, nazywam się Patryk Stefański. Uczę, jak jeść i trenować,bez
+          popadania w skrajności
+        </p>
+
         <button>Czytaj więcej</button>
       </StyledVariant>
       <StyledVariant>
