@@ -1,6 +1,10 @@
-# LAnding PAge stworzony na potrzeby zbudowania portfolio. Strona dla trenera personalnego.
+# Landing Page stworzony na potrzeby zbudowania portfolio. Strona dla trenera personalnego.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Stack:
+
+    1. JavaScript
+    2. React
+    3. Emotion.sh (https://emotion.sh/docs/introduction)
 
 ## Available Scripts
 
