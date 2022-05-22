@@ -43,8 +43,8 @@ export const StyledOffer = () => {
 
         <h2>O MNIE</h2>
         <p>
-          Cześć, nazywam się Patryk Stefański. Uczę, jak jeść i trenować,bez
-          popadania w skrajności
+          Cześć, nazywam się Patryk Stefański.
+          <br /> Uczę, jak jeść i trenować,bez popadania w skrajności.
         </p>
 
         <button>Czytaj więcej</button>
@@ -71,8 +71,8 @@ export const StyledOffer = () => {
         </StyledOfferIconAboutMe>
         <h2>Kontakt</h2>
         <p>
-          E-mail: fitojciectrener@gmail.com Instagram:
-          www.instagram.com/fit.ojciec
+          E-mail: fitojciectrener@gmail.com
+          <br /> Instagram: www.instagram.com/fit.ojciec
         </p>
         <button>Czytaj więcej</button>
       </StyledVariant>

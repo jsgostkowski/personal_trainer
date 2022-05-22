@@ -46,12 +46,14 @@ export const StyledMain = () => {
       <DescriptionLeft>
         <StyledH1>Dieta jest dla Ciebie, nie Ty dla niej!</StyledH1>
         <StyledP>
-          Chcesz schudnąć? Zmienić swoje nawyki żywieniowe? Poprawić wygląd
-          swojej sylwetki lub zadbać o swoje zdrowie? ŚWIETNIE TRAFIŁAŚ/EŚ. Ze
-          swojej strony oferuję w pełni zindywidualizowane podejście - jadłospis
-          dopasowany zarówno pod względem ilości posiłków, jak i Twoich kubków
-          smakowych - KONIEC z jedzeniem posiłków, których nie lubisz, dieta ma
-          być smaczna i przynosić oczekiwane efekty!
+          Chcesz schudnąć? Zmienić swoje nawyki żywieniowe? <br />
+          Poprawić wygląd swojej sylwetki lub zadbać o swoje zdrowie? <br />
+          ŚWIETNIE TRAFIŁAŚ/EŚ!
+          <br />
+          Ze swojej strony oferuję w pełni zindywidualizowane podejście -
+          jadłospis dopasowany zarówno pod względem ilości posiłków, jak i
+          Twoich kubków smakowych - KONIEC z jedzeniem posiłków, których nie
+          lubisz, dieta ma być smaczna i przynosić oczekiwane efekty!
         </StyledP>
         <button>Kontakt</button>
         <StyledH2>Współpracuje również z osobami:</StyledH2>
