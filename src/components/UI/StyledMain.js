@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 import PancakesMain from "../UI/Images/Main_Background.jpg";
+import Modal from "react-modal";
 
 const Section = styled.div`
   display: flex;

@@ -6,6 +6,8 @@ import {
   FaUser,
   FaAddressCard,
 } from "react-icons/fa";
+import { AboutModal } from "./AboutModal";
+import { AboutMePopup } from "../Popups/AboutMePopup";
 
 const Section = styled.div`
   display: flex;
@@ -34,6 +36,12 @@ const StyledOfferIconAboutMe = styled.div`
 `;
 
 export const StyledOffer = () => {
+  const [modalIsOpen, setIsOpen] = React.useState(false);
+
+  const handleHideForm = () => {
+    setIsOpen(false);
+  };
+
   return (
     <Section>
       <StyledVariant>
@@ -47,7 +55,11 @@ export const StyledOffer = () => {
           <br /> Uczę, jak jeść i trenować,bez popadania w skrajności.
         </p>
 
-        <button>Czytaj więcej</button>
+        <button onClick={() => setIsOpen(true)}>Read more</button>
+        <AboutMePopup trigger={modalIsOpen} setTrigger={setIsOpen}>
+          <h3>My popup</h3>
+          <p>To jest tekst mojego popup'a</p>
+        </AboutMePopup>
       </StyledVariant>
       <StyledVariant>
         <StyledOfferIconAboutMe>
