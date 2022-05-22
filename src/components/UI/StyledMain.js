@@ -6,14 +6,19 @@ const Section = styled.div`
   display: flex;
   flex-direction: row;
   margin-top: 10px;
-  margin-left: 25px;
+  margin-left: 0px;
   height: 600px;
+  webkit-box-shadow: 0px 9px 22px -17px rgba(108, 209, 108, 1);
+  moz-box-shadow: 0px 9px 22px -17px rgba(108, 209, 108, 1);
+  box-shadow: 0px 9px 22px -17px rgba(108, 209, 108, 1);
 `;
 const DescriptionLeft = styled.div`
   flex: 50%;
+  margin-left: 25px;
 `;
 const StyledImgMain = styled.div`
   flex: 50%;
+  margin-top: 10px;
 `;
 const StyledH1 = styled.h1`
   color: green;
@@ -22,13 +27,11 @@ const StyledH1 = styled.h1`
 `;
 const StyledH2 = styled.h2`
   color: green;
-
   text-align: left;
 `;
 const StyledP = styled.p`
   color: black;
   overflow-wrap: break-word;
-
   text-align: left;
 `;
 const StyledList = styled.li`
