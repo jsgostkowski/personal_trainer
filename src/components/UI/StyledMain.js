@@ -22,7 +22,7 @@ const StyledImgMain = styled.div`
 `;
 const StyledH1 = styled.h1`
   color: green;
-  margin-top: 150px;
+  margin-top: 80px;
   text-align: left;
 `;
 const StyledH2 = styled.h2`
