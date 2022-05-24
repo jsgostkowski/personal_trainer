@@ -29,7 +29,7 @@ const StyledVariant = styled.div`
   text-align: center;
 `;
 const StyledOfferIconAboutMe = styled.div`
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   align-items: center;
   margin-top: 15px;
@@ -38,23 +38,17 @@ const StyledOfferIconAboutMe = styled.div`
 export const StyledOffer = () => {
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
-  const handleHideForm = () => {
-    setIsOpen(false);
-  };
-
   return (
     <Section>
       <StyledVariant>
         <StyledOfferIconAboutMe>
           <FaUser size={"50px"} />
         </StyledOfferIconAboutMe>
-
         <h2>O MNIE</h2>
         <p>
           Cześć, nazywam się Patryk Stefański.
           <br /> Uczę, jak jeść i trenować,bez popadania w skrajności.
         </p>
-
         <button onClick={() => setIsOpen(true)}>Read more</button>
         <AboutMePopup trigger={modalIsOpen} setTrigger={setIsOpen}>
           <h3>My popup</h3>
