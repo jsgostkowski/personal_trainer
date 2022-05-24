@@ -11,8 +11,18 @@ const LeftDivText = styled.div`
   background-color: blue;
 `;
 const RightDivCrossButtons = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   flex: 50%;
   background-color: red;
+
+  justify-content: center;
+`;
+const StyledHashimotoDiv = styled.div`
+  margin: 0px 2px 2px 0px;
+  width: 49%;
+  background-color: white;
 `;
 const AboutMeText = styled.div`
   display: flex;
@@ -33,7 +43,12 @@ export const StyledAboutMe = () => {
           </p>
         </AboutMeText>
       </LeftDivText>
-      <RightDivCrossButtons />
+      <RightDivCrossButtons>
+        <StyledHashimotoDiv />
+        <StyledHashimotoDiv />
+        <StyledHashimotoDiv />
+        <StyledHashimotoDiv />
+      </RightDivCrossButtons>
     </SectionAboutMe>
   );
 };
